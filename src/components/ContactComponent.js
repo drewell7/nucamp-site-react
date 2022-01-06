@@ -157,7 +157,7 @@ class Contact extends Component {
                                 <Col md={10}>
                                     <Control.text model=".email" id="email" name="email"
                                         placeholder="Email"
-                                        className="form-control"validators={{
+                                        className="form-control" validators={{
                                             required,
                                             validEmail
                                         }}
